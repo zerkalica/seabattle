@@ -1,0 +1,93 @@
+.seabattle-arena {
+  border-collapse: collapse;
+}
+
+.seabattle-arena th,
+.seabattle-arena td {
+  width: 2em;
+  height: 2em;
+}
+
+#arena-box .cell {
+  border: 1px solid white;
+  color: black;
+}
+
+#arena-box .clean {
+  background: #a0e0ff;
+}
+
+#arena-box .miss {
+  background: gray;
+}
+
+#arena-box .damaged {
+  background: orange;
+}
+
+#arena-box .killed {
+  background: red;
+}
+
+.seabattle-arena .ship {
+  background: green;
+}
+
+#status-box .status {
+  padding: 0.1em 0.2em;
+  background: #e0e0e0;
+}
+
+#status-box .status-playing {
+  color: black;
+  font-size: 3em;
+}
+
+#status-box .status-lose {
+  color: white;
+  background: red;
+  font-size: 4em;
+}
+
+
+#status-box .status-win {
+  color: white;
+  background: green;
+  font-size: 4em;
+}
+
+#score-box, #weapons-box, #status-box {
+  margin-left: 1em;  
+}
+
+#arena-box {
+  margin-right: 1em;
+}
+
+
+h2, h3 {
+  background: #ffe;
+  border-bottom: 1px solid #ee0;
+  padding: 0.2em 0.3em;
+  color: #655;
+}
+
+#seabattle-legend {
+  list-style-type: none;  
+  list-style-image: none;
+  list-style-position: inside;
+  padding: 0 0 0 1em;
+}
+
+#seabattle-legend li {
+  padding: 0.2em 0;
+  display: block;
+}
+
+#seabattle-legend li span {
+  display: block;
+  width: 1.5em;
+  height: auto;
+  float: left;
+  margin-right: 0.5em;
+} 
